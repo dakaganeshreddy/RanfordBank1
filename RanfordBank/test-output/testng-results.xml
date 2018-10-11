@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[launch is passed]]>
+    </line>
+    <line>
+      <![CDATA[login is passed]]>
+    </line>
+    <line>
+      <![CDATA[Branches page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Branch already exist new branch creation failed]]>
+    </line>
+    <line>
+      <![CDATA[Branch already exist new branch creation failed]]>
+    </line>
+    <line>
+      <![CDATA[Branch already exist new branch creation failed]]>
+    </line>
+    <line>
+      <![CDATA[Branch search successfull]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41999" started-at="2018-10-09T04:09:46Z" finished-at="2018-10-09T04:10:28Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="41999" started-at="2018-10-09T04:09:46Z" finished-at="2018-10-09T04:10:28Z">
+      <class name="POM.PageLibrary.RanfordBank.TestExecution">
+        <test-method status="PASS" signature="extentReports()[pri:0, instance:POM.PageLibrary.RanfordBank.TestExecution@61832929]" name="extentReports" is-config="true" duration-ms="234" started-at="2018-10-09T09:39:46Z" finished-at="2018-10-09T09:39:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReports -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:POM.PageLibrary.RanfordBank.TestExecution@61832929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-09T09:39:46Z" finished-at="2018-10-09T09:39:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void POM.PageLibrary.RanfordBank.TestExecution.verifylaunchBrowser(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifylaunchBrowser(java.lang.String)[pri:0, instance:POM.PageLibrary.RanfordBank.TestExecution@61832929]" name="verifylaunchBrowser" duration-ms="12631" started-at="2018-10-09T09:39:46Z" finished-at="2018-10-09T09:39:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[launch is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifylaunchBrowser -->
+        <test-method status="PASS" signature="verify_login()[pri:1, instance:POM.PageLibrary.RanfordBank.TestExecution@61832929]" name="verify_login" duration-ms="3911" started-at="2018-10-09T09:39:59Z" finished-at="2018-10-09T09:40:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:POM.PageLibrary.RanfordBank.TestExecution@61832929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-09T09:39:59Z" finished-at="2018-10-09T09:39:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void POM.PageLibrary.RanfordBank.TestExecution.verify_login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="branchesButtonclick()[pri:3, instance:POM.PageLibrary.RanfordBank.TestExecution@61832929]" name="branchesButtonclick" duration-ms="1173" started-at="2018-10-09T09:40:03Z" finished-at="2018-10-09T09:40:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Branches page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- branchesButtonclick -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:POM.PageLibrary.RanfordBank.TestExecution@61832929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-09T09:40:03Z" finished-at="2018-10-09T09:40:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void POM.PageLibrary.RanfordBank.TestExecution.branchesButtonclick()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:POM.PageLibrary.RanfordBank.TestExecution@61832929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-09T09:40:04Z" finished-at="2018-10-09T09:40:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void POM.PageLibrary.RanfordBank.TestExecution.verify_branchDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verify_branchDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:POM.PageLibrary.RanfordBank.TestExecution@61832929]" name="verify_branchDetails" duration-ms="8828" started-at="2018-10-09T09:40:04Z" data-provider="branches" finished-at="2018-10-09T09:40:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BommanahalliBra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fisrt street]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[56009]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Karnataka]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[BANGLORE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Branch already exist new branch creation failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_branchDetails -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:POM.PageLibrary.RanfordBank.TestExecution@61832929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-09T09:40:13Z" finished-at="2018-10-09T09:40:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void POM.PageLibrary.RanfordBank.TestExecution.verify_branchDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verify_branchDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:POM.PageLibrary.RanfordBank.TestExecution@61832929]" name="verify_branchDetails" duration-ms="3883" started-at="2018-10-09T09:40:13Z" data-provider="branches" finished-at="2018-10-09T09:40:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SilkBoardBranch]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Main road]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[56010]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Karnataka]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[BANGLORE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Branch already exist new branch creation failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_branchDetails -->
+        <test-method status="PASS" signature="verify_branchDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:POM.PageLibrary.RanfordBank.TestExecution@61832929]" name="verify_branchDetails" duration-ms="9304" started-at="2018-10-09T09:40:17Z" data-provider="branches" finished-at="2018-10-09T09:40:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SaintJohnsBranch]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[second cross]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[56011]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Karnataka]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[BANGLORE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Branch already exist new branch creation failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_branchDetails -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:POM.PageLibrary.RanfordBank.TestExecution@61832929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-09T09:40:17Z" finished-at="2018-10-09T09:40:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void POM.PageLibrary.RanfordBank.TestExecution.verify_branchDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="branch_search()[pri:10, instance:POM.PageLibrary.RanfordBank.TestExecution@61832929]" name="branch_search" duration-ms="2016" started-at="2018-10-09T09:40:26Z" finished-at="2018-10-09T09:40:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Branch search successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- branch_search -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:POM.PageLibrary.RanfordBank.TestExecution@61832929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-09T09:40:26Z" finished-at="2018-10-09T09:40:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void POM.PageLibrary.RanfordBank.TestExecution.branch_search()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="savereport()[pri:0, instance:POM.PageLibrary.RanfordBank.TestExecution@61832929]" name="savereport" is-config="true" duration-ms="320" started-at="2018-10-09T09:40:28Z" finished-at="2018-10-09T09:40:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savereport -->
+      </class> <!-- POM.PageLibrary.RanfordBank.TestExecution -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="POM.PageLibrary.RanfordBank.TestExecution">
+        <methods>
+          <include name="verify_branchDetails"/>
+          <include name="verifylaunchBrowser"/>
+          <include name="beforeMethod"/>
+          <include name="branchesButtonclick"/>
+          <include name="branch_search"/>
+          <include name="verify_login"/>
+          <include name="savereport"/>
+          <include name="extentReports"/>
+        </methods>
+      </class> <!-- POM.PageLibrary.RanfordBank.TestExecution -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
